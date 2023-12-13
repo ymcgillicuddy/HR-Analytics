@@ -1,7 +1,9 @@
 # HR Analytics README
 
 ## Overview
-This project...
+This project takes an HR analytics dataset from Kaggle and...
+
+- explores/cleanses the data
 
 (ML prediction model for attrition amongst high performers)
 
@@ -18,8 +20,13 @@ This notebook requires the packages listed below.  These can be installed from t
 
 `pip install -r requirements.txt`
 
+For data analysis:
 - pandas
+- numpy
+
+For data visualisation:
 - seaborn
+- plotly
 - matplotlib
 
 ## Notes on Implementation

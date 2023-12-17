@@ -1,13 +1,11 @@
 # HR Analytics README
 
 ## Overview
-This project takes an HR analytics dataset from Kaggle and...
+This project takes an HR analytics dataset from Kaggle and seeks to predict attrition amongst high-performing employees.  The following steps are undertaken.
 
 - explores/cleanses the data
-- preps the data for a machine learning pipeline
-- uses Histogram-Based Gradient Boosting to facilitate including categorical data in a predictive machine learning model
-
-(ML prediction model for attrition amongst high performers)
+- preps the data for a machine learning pipelines
+- uses OneHotEncoder to facilitate including categorical data in a Histogram-Based Gradient Boosting Estimator
 
 ## Components
 - HR_Analytics csv data file

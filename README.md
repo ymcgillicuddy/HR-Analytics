@@ -4,7 +4,7 @@
 This project takes an HR analytics dataset from Kaggle and seeks to predict attrition amongst high-performing employees.  The following steps are undertaken in the Jupyter Notebook:
 
 - exploring/cleansing the data
-- prepping multiple pipelines against a Histogram-Based Gradient Boosting Estimator - utilises OneHotEncoder and OrdinalEncoder from scikit-learn to test effectiveness across different approaches to using categorical data.
+- prepping multiple pipelines with different subsets of the dataframe against a Histogram-Based Gradient Boosting Estimator - utilises OneHotEncoder and OrdinalEncoder from scikit-learn to test effectiveness across different approaches to using categorical data.
 
 ## Components
 - HR_Analytics csv data file

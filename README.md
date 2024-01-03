@@ -5,7 +5,9 @@ This project takes an HR analytics dataset from Kaggle and seeks to predict attr
 
 - exploring/cleansing the data
 - using SelectKBest to establish the best number of numerical/categorical features
-- Fitting a Stacked Regressor consisting of a Random Forest and a Gradient Booster to establish the best model for predicting attrition.
+- using One-Hot Encoding to convert categorical features to numerical and comparing outcomes to using purely numerical features.
+- exploring alternative model parameters
+- data visualisation (for both data analysis and model analysis)
 
 ## Components
 - HR_Analytics csv data file
@@ -32,4 +34,11 @@ For data visualisation:
 For machine learning:
 - scikit-learn
 
-## Notes on Implementation
+## Notes on Functions
+This notebook incorporates some functions for ease of use that are listed below:
+
+- **replace** - Replaces a value in one column with a given alternative value
+- **print_shape** - Prints the shape of train and test data sets after splitting
+- **model_fit_score** - Uses train and test data to fit and predict a RandomForestClassifier
+- **plot_k_best** - Plots a chart of scores for all dataset features using SelectKBest
+- **select_features** - Creates a dictionary from two lists and converts that into a dataframe that can be used to plot values

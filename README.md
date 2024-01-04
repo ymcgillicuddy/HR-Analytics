@@ -13,7 +13,7 @@ This project takes an HR analytics dataset from Kaggle and seeks to predict attr
 - HR_Analytics csv data file
 - HR Analytics Jupyter Notebook
 - requirements.txt
-- Companion blog: url-to-follow
+- [Companion blog](https://yvonnemcg.hashnode.dev/predicting-negative-attrition-with-machine-learning)
 
 ## Requirements
 This notebook requires the packages listed below.  These can be installed from the requirements.txt file by executing the following code in the terminal.  

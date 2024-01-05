@@ -42,3 +42,13 @@ This notebook incorporates some functions for ease of use that are listed below:
 - **model_fit_score** - Uses train and test data to fit and predict a RandomForestClassifier
 - **plot_k_best** - Plots a chart of scores for all dataset features using SelectKBest
 - **select_features** - Creates a dictionary from two lists and converts that into a dataframe that can be used to plot values
+
+## Licensing, Authors and Acknowledgements
+- Data Source: [HR Analytics Dataset](https://www.kaggle.com/datasets/anshika2301/hr-analytics-dataset/discussion/456134)
+
+Dataset uploaded to Kaggle by user anshika2301
+Data was web-scraped from [@RishabhMishraOfficial YouTube channel](https://bit.ly/3Fc7Gc6)
+License: CC0: Public Domain
+Updated annually (last update November 2023)
+
+- License: GNU GENERAL PUBLIC LICENSE
